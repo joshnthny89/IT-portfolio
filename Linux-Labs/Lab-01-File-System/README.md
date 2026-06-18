@@ -1,10 +1,8 @@
-# IT-portfolio
+# Lab 1 - File System Navigation
 
-## Cybersecurity Labs
+## Linux Fundamentals Lab
 
-This repository contains cybersecurity labs I have completed while studying cybersecurity and IT concepts.
-
-## Lab 1: File System Navigation
+This repository contains Linux/macOS labs I have completed while studying cybersecurity and IT concepts.
 
 ### Objective
 
