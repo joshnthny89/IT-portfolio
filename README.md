@@ -29,3 +29,10 @@ Successfully navigated the file system and viewed files, directories, and permis
 ### Screenshot
 
 <img width="577" height="457" alt="image" src="https://github.com/user-attachments/assets/cc501c94-0052-4e5e-b39b-1d8c1ed176a5" />
+
+
+### Skills Demonstrated
+
+- Terminal Navigation
+- File System Management
+- Linux/macOS Command Line
