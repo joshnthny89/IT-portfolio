@@ -19,7 +19,9 @@ I show how to view and modify file permissions in macOS/Linux using the terminal
 4. Verified the permission changes using `ls -l`.
 5. Modified the file permissions to `644` using `chmod 644 sensitive.txt`.
 6. Verified the updated permissions using `ls -l`.
-7. Compared the differences between the permission settings and analyzed their security implications.
+7. Modified the file permissions to `777` using `chmod 777 sensitive.txt`.
+8. Verified the updated permissions using `ls -l`.
+9. Compared the differences between the permission settings and analyzed their security implications.
 
 ## Results
 
@@ -61,9 +63,10 @@ Successfully viewed and modified file permissions using the `chmod` command. Dem
 
 ## Screenshot
 
+<img width="498" height="279" alt="image" src="https://github.com/user-attachments/assets/d6967ab7-be0f-4cfc-a39a-32dcc1764e1b" />
 
 
-<sub><em>Terminal output showing the creation of a test file, inspection of default permissions using ls -l, and modification of file permissions using chmod.</em></sub>
+<sub><em>Terminal output showing the creation of a test file, inspection of default permissions using `ls -l`, and modification of file permissions using `chmod`.</em></sub>
 
 ## Lessons Learned
 
