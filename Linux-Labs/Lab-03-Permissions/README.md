@@ -59,6 +59,16 @@ Successfully viewed and modified file permissions using the `chmod` command. Dem
 
 **Security Impact:** Provides full access to all users and is generally considered insecure because it can allow unauthorized modifications.
 
+## Screenshot
+
+
+
+<sub><em>Terminal output showing the creation of a test file, inspection of default permissions using ls -l, and modification of file permissions using chmod.</em></sub>
+
+## Lessons Learned
+
+File permissions are a critical security control that help protect systems and data. Understanding how to view and modify permissions is essential for system administration, cybersecurity, and incident response activities. 
+
 ## Skills Demonstrated
 
 - Linux/macOS Terminal Usage
@@ -66,13 +76,3 @@ Successfully viewed and modified file permissions using the `chmod` command. Dem
 - Principle of Least Privilege
 - Security Fundamentals
 - Technical Documentation
-
-## Screenshot
-
-[Insert Screenshot Here]
-
-<sub><em>Terminal output showing the creation of a test file, inspection of default permissions using ls -l, and modification of file permissions using chmod.</em></sub>
-
-## Lessons Learned
-
-File permissions are a critical security control that help protect systems and data. Understanding how to view and modify permissions is essential for system administration, cybersecurity, and incident response activities. 
