@@ -21,3 +21,7 @@ Learn basic file management commands using the macOS terminal.
 ## Results
 
 Successfully created, copied, renamed, and removed files using terminal commands.
+
+## Screenshots
+
+<img width="550" height="392" alt="image" src="https://github.com/user-attachments/assets/556d8a0d-b076-453c-88ae-e4785ef67c4d" />
