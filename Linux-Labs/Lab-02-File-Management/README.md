@@ -13,15 +13,23 @@ Learn basic file management commands using the macOS terminal.
 
 ## Steps Performed
 
-1. Created test files using the touch command.
-2. Copied files using cp.
-3. Renamed files using mv.
-4. Removed files using rm.
+1. Verified that both the `Evidence` and `Reports` directories existed within the `CyberLabs` directory using the `ls` command.
+2. Navigated into the `Reports` directory using `cd Reports`.
+3. Created a file named `report1.txt` using the `touch report1.txt` command.
+4. Created a second file named `report2.txt` using the `touch report2.txt` command.
+5. Used `ls` to verify that both files were successfully created.
+6. Created a backup copy of `report1.txt` named `backup.txt` using the `cp report1.txt backup.txt` command.
+7. Renamed `report2.txt` to `final_report.txt` using the `mv report2.txt final_report.txt` command.
+8. Used `ls` to verify that the copied and renamed files were present in the directory.
+9. Removed `backup.txt` using the `rm backup.txt` command.
+10. Used `ls` to verify that the backup file had been deleted and that only `report1.txt` and `final_report.txt` remained.
+11. The final step in this lab was the use of `rm final_report report1.txt` to remove both `.txt` files from the `Reports` directory, followed by `ls` to verify the files were removed.
 
 ## Results
 
-Successfully created, copied, renamed, and removed files using terminal commands.
+Successfully created and organized directories, created files, copied files for backup purposes, renamed files, removed unnecessary files, and verified changes using command-line tools. Demonstrated the ability to manage files throughout their entire lifecycle using the macOS/Linux terminal.
 
 ## Screenshots
 
 <img width="550" height="392" alt="image" src="https://github.com/user-attachments/assets/556d8a0d-b076-453c-88ae-e4785ef67c4d" />
+<img width="552" height="79" alt="image" src="https://github.com/user-attachments/assets/9e9983e3-4568-49ec-8781-19096fb0a4a9" />
