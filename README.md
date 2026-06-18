@@ -1,3 +1,2 @@
 # IT-portfolio
-Cybersecurity Labs
-  <img width="577" height="457" alt="image" src="https://github.com/user-attachments/assets/78f0afc6-8a0c-4aa5-a225-b239fd460b37" />
+<img width="1108" height="666" alt="image" src="https://github.com/user-attachments/assets/72f71e62-1680-4dc8-8783-1346bc1f95df" />
