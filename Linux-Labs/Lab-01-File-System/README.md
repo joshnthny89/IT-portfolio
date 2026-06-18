@@ -54,6 +54,10 @@ Successfully navigated the macOS file system, viewed directory contents and perm
 
 <sub><em>*In the 2 screenshots above I navigate to the Library directory with `cd Library`, and once in the the Library directory i use `rmdir CyberLabs` to remove the previously created "CyberLabs" directory from the Library directory. The running the `ls` command to display the contents of the Library directory verifying the "CyberLabs" directory was removed.*<sub><em></em></sub>
 
+
+<img width="546" height="235" alt="image" src="https://github.com/user-attachments/assets/a29987a7-a5b0-4dd0-a84f-3aae2631426d" />
+
+<sub><em>*I used `mkdir Evidence` and `mkdir Reports` to create directories within "CyberLabs" directory for future labs.*<sub><em></em></sub>
 ### Skills Demonstrated
 
 - Command-Line Navigation
