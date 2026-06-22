@@ -63,7 +63,7 @@ Successfully viewed and modified file permissions using the `chmod` command. Dem
 
 ## Screenshot
 
-<img width="498" height="279" alt="image" src="https://github.com/user-attachments/assets/d6967ab7-be0f-4cfc-a39a-32dcc1764e1b" />
+<img width="498" height="279" alt="image" src="https://github.com/user-attachments/assets/0c8af455-e313-4b00-a767-d3082c4455f4" />
 
 
 <sub><em>Terminal output showing the creation of a test file, inspection of default permissions using `ls -l`, and modification of file permissions using `chmod`.</em></sub>
