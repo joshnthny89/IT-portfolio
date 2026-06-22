@@ -31,5 +31,5 @@ Successfully created and organized directories, created files, copied files for 
 
 ## Screenshots
 
-<img width="550" height="392" alt="image" src="https://github.com/user-attachments/assets/556d8a0d-b076-453c-88ae-e4785ef67c4d" />
-<img width="552" height="79" alt="image" src="https://github.com/user-attachments/assets/9e9983e3-4568-49ec-8781-19096fb0a4a9" />
+<img width="550" height="392" alt="image" src="https://github.com/user-attachments/assets/9c449dd7-c17a-44b3-ba5a-476a607281de" />
+<img width="552" height="79" alt="image" src="https://github.com/user-attachments/assets/1c959f87-d108-4999-acc6-4c975e680f9b" />
