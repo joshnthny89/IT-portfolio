@@ -61,9 +61,9 @@ Reviewing running processes can help analysts identify abnormal behavior, unknow
 
 <img width="846" height="276" alt="image" src="https://github.com/user-attachments/assets/d99f14ae-505d-4f2e-b403-77a2e3a56064" />
 
-<img width="842" height="180" alt="image" src="https://github.com/user-attachments/assets/1b6cdbed-94e3-4c44-ae4f-8ef52e070f6f" />
+<img width="842" height="180" alt="image" src="https://github.com/user-attachments/assets/ed261501-2f1f-453d-92a8-a4d1051a8698" />
 
-<sub><em>Performed process enumeration using the `ps`, `ps aux`, and `ps -e` commands to identify active processes, process ownership, resource usage, and system activity. This information provides visibility into running services and applications, which is a foundational step in system monitoring, threat detection, and incident response investigations.</em></sub>
+<sub><em>In the above 2 screenshots I performed process enumeration using the `ps`, `ps aux`, and `ps -e` commands to identify active processes, process ownership, resource usage, and system activity. This information provides visibility into running services and applications, which is a foundational step in system monitoring, threat detection, and incident response investigations.</em></sub>
 
 <img width="849" height="293" alt="image" src="https://github.com/user-attachments/assets/329891d6-51f3-4855-acff-5881b0422e01" />
 
