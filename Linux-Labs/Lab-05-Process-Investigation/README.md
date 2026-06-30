@@ -7,8 +7,8 @@ Show how to identify, analyze, and investigate running processes on a macOS syst
 ## Commands Used
 
 - ps
-- ps -e
 - ps aux
+- ps -e
 - top
 - grep
 
@@ -16,11 +16,11 @@ Show how to identify, analyze, and investigate running processes on a macOS syst
 
 1. Used the `ps` command to display currently running processes associated with the active terminal session.
 
-2. Used the `ps -e` command to display all currently running processes on the macOS system.
+2. Used the `ps aux` command to display detailed information about all running processes, including the user account associated with each process and resource usage.
 
-3. Reviewed process information including Process ID (PID), terminal session, CPU time, and command name.
+3. Used the `ps -e` command to display all currently running processes on the macOS system.
 
-4. Used the `ps aux` command to display detailed information about all running processes, including the user account associated with each process and resource usage.
+4. Reviewed process information including Process ID (PID), terminal session, CPU time, and command name.
 
 5. Reviewed running processes to identify normal system services and active applications.
 
@@ -61,8 +61,17 @@ Reviewing running processes can help analysts identify abnormal behavior, unknow
 
 <img width="846" height="276" alt="image" src="https://github.com/user-attachments/assets/d99f14ae-505d-4f2e-b403-77a2e3a56064" />
 
+<img width="842" height="180" alt="image" src="https://github.com/user-attachments/assets/1b6cdbed-94e3-4c44-ae4f-8ef52e070f6f" />
 
-<sub><em>Terminal output showing process enumeration and investigation using macOS commands to identify running system services, applications, and active processes.</em></sub>
+<sub><em>Performed process enumeration using the `ps`, `ps aux`, and `ps -e` commands to identify active processes, process ownership, resource usage, and system activity. This information provides visibility into running services and applications, which is a foundational step in system monitoring, threat detection, and incident response investigations.</em></sub>
+
+<img width="849" height="293" alt="image" src="https://github.com/user-attachments/assets/329891d6-51f3-4855-acff-5881b0422e01" />
+
+<sub><em>Used the `top` command to monitor real-time system activity, review running processes, and analyze resource usage including CPU and memory consumption.</em></sub>
+
+<img width="852" height="184" alt="image" src="https://github.com/user-attachments/assets/b87aaa2f-7e10-490e-8726-807f64507d0b" />
+
+<sub><em>Used the `grep` command with process output to filter and identify specific running processes of interest. Commands such as `ps aux | grep Terminal`, `ps aux | grep launchd`, and `ps aux | grep zsh` were used to search for specific processes within system activity data. The command `ps aux | grep "[T]erminal"` was used to locate the Terminal process while preventing the `grep` command itself from appearing in the results.</em></sub>
 
 ## Lessons Learned
 
