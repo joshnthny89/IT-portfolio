@@ -67,7 +67,9 @@ Network investigation commands provide valuable information during technical tro
 
 ## Screenshot
 
-[Insert Screenshot Here]
+<img width="570" height="457" alt="image" src="https://github.com/user-attachments/assets/d1ad2de4-cd7a-4a37-b1c8-dfbfe7aed728" />
+
+<sub><em>Using the `ifconfig` command to examine the system's network interfaces and review network configuration details, including interface status, IP addressing, and connectivity information. This command provides visibility into how the system is configured to communicate across a network.</em></sub>
 
 <sub><em>Terminal output showing network investigation commands used to analyze network configuration, active connections, connectivity, DNS resolution, and network paths.</em></sub>
 
