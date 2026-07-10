@@ -76,3 +76,7 @@ Network investigation commands provide valuable information during technical tro
 ## Lessons Learned
 
 Network visibility is a critical component of cybersecurity. Understanding how systems communicate and how to investigate network activity provides a foundation for detecting abnormal behavior and investigating potential security incidents.
+
+## NOTE:
+
+Certain network identifiers (IP addresses, IPv6 addresses, subnet information, and MAC addresses) have been redacted from screenshots to protect personal network information while preserving the educational value of the lab.
