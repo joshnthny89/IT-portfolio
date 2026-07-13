@@ -1,6 +1,6 @@
-<img width="1024" height="434" alt="image" src="https://github.com/user-attachments/assets/c4dc3b87-53ac-4668-afda-a396296f857b" />
+<img width="1024" height="252" alt="image" src="https://github.com/user-attachments/assets/51f01737-36df-42d1-8042-6e949d544a37" />
 
-# Hi, I'm Joshua Anthony
+# Hey, I'm Joshua Anthony
 ## Former police officer, now building a career in IT & Cybersecurity — trading a badge for a keyboard, same commitment to protecting people and systems.
 
 I bring real-world incident response, evidence handling, and composure under pressure into a technical toolkit built through 15 completed Coursera courses (Google IT Support + Google Cybersecurity), hands-on labs, and ongoing CompTIA Security+ study.
