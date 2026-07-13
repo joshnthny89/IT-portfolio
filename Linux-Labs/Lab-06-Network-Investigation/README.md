@@ -94,5 +94,3 @@ Network visibility is a critical component of cybersecurity. Understanding how s
 ## NOTE:
 
 Certain network identifiers (IP addresses, IPv6 addresses, subnet information, and MAC addresses) have been redacted from screenshots to protect personal network information while preserving the educational value of the lab.
-
-#Added from My MAC
