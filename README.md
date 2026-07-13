@@ -8,7 +8,7 @@ These labs demonstrate foundational Linux/macOS administration skills and their 
 
 | Lab | Skills |
 |------|--------|
-| 📁 [Lab 01 - File Systems](Linux-Labs/Lab-01-File-Systems) | Navigation, Directory Structure |
+| 📁 [Lab 01 - File Systems](Linux-Labs/Lab-01-File-System) | Navigation, Directory Structure |
 | 📂 [Lab 02 - File Management](Linux-Labs/Lab-02-File-Management) | Files, Directories, Copy, Move, Delete |
 | 🔒 [Lab 03 - Permissions](Linux-Labs/Lab-03-Permissions) | `chmod`, Least Privilege |
 | 👥 [Lab 04 - Users & Groups](Linux-Labs/Lab-04-Users-Groups) | IAM, User Enumeration, `sudo` |
