@@ -55,13 +55,13 @@ Linux Labs — a hands-on lab series documenting step-by-step tasks, screenshots
 
 # 📌 Current Learning Goals
 
--- Pass the CompTIA Security+ exam
+- Pass the CompTIA Security+ exam
 
--- Build toward SOC-analyst-level skills: alert triage, log analysis, traffic analysis
+- Build toward SOC-analyst-level skills: alert triage, log analysis, traffic analysis
 
--- Expand hands-on labs into blue-team scenarios (SIEM, phishing analysis, MITRE ATT&CK)
+- Expand hands-on labs into blue-team scenarios (SIEM, phishing analysis, MITRE ATT&CK)
 
--- Keep every lab documented clearly for recruiter and hiring-manager review
+- Keep every lab documented clearly for recruiter and hiring-manager review
 
 ## 📫 Connect With Me
 
