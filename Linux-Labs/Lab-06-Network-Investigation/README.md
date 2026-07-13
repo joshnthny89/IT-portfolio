@@ -67,11 +67,25 @@ Network investigation commands provide valuable information during technical tro
 
 ## Screenshot
 
+<sub><em>Terminal output showing network investigation commands used to analyze network configuration, active connections, connectivity, DNS resolution, and network paths.</em></sub>
+
 <img width="570" height="457" alt="image" src="https://github.com/user-attachments/assets/d1ad2de4-cd7a-4a37-b1c8-dfbfe7aed728" />
 
 <sub><em>Using the `ifconfig` command to examine the system's network interfaces and review network configuration details, including interface status, IP addressing, and connectivity information. This command provides visibility into how the system is configured to communicate across a network.</em></sub>
 
-<sub><em>Terminal output showing network investigation commands used to analyze network configuration, active connections, connectivity, DNS resolution, and network paths.</em></sub>
+<img width="570" height="457" alt="image" src="https://github.com/user-attachments/assets/6d6e0dc0-50bd-4033-b016-3f5ae4c17f73" />
+
+<sub><em>Using the `ipconfig getifaddr en0` command to retrieve the IPv4 address assigned to the system's primary network interface, confirming the device's active network configuration. Followed by the `netstat -an` command to display active network connections and listening ports, providing visibility into current network communication and connection states.</em></sub>
+
+<img width="423" height="111" alt="image" src="https://github.com/user-attachments/assets/b4d4a30a-29ef-4b77-b8b1-aa63d0df8550" />
+<img width="469" height="50" alt="image" src="https://github.com/user-attachments/assets/f057f78f-e09f-4bbf-94d3-f70cd5475c3a" />
+
+<sub><em>In the 2 screenshots above I used the `ping google.com` command to test network connectivity between the local system and a remote host by sending ICMP Echo Request packets. The output confirmed successful communication by displaying packet transmission and receipt, response times, packet loss statistics, and round-trip latency measurements (minimum, average, maximum, and standard deviation).</em></sub>
+
+<img width="509" height="399" alt="image" src="https://github.com/user-attachments/assets/b8e9c2e5-dc9b-44fb-8040-de78cc56eb6e" />
+
+<sub><em>Using the `nslookup google.com` command to query the Domain Name System (DNS) and resolve the domain name to its corresponding IP address. Followed by the `traceroute google.com` command to trace the network path between the local system and a remote host by identifying each intermediate router (hop) along the route. The output displays the sequence of network hops and their response times, providing insight into packet routing, network latency, and potential points of delay.</em></sub>
+
 
 ## Lessons Learned
 
