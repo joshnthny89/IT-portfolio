@@ -2,7 +2,7 @@
 
 ## Objective
 
-I show how to view and modify file permissions in macOS/Linux using the terminal. Show how file permissions help protect sensitive information by controlling who can read, write, and execute files.
+This lab demonstrates how to view and modify file permissions in macOS/Linux using the terminal, and how permission settings protect sensitive information by controlling read, write, and execute access.
 
 ## Commands Used
 
