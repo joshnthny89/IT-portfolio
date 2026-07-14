@@ -51,15 +51,18 @@ Incident response & documentation · chain of custody / evidence handling · rep
 
 Linux Labs — a hands-on lab series documenting step-by-step tasks, screenshots, and skills learned for each exercise. Started with core Linux/macOS administration (file systems, permissions, users & groups, process and network investigation) and is actively growing toward SOC-style scenarios — log analysis, SIEM alert triage, network traffic analysis, and incident response workflows.
 
-
 | Lab | Skills |
 |------|--------|
-| 📁 [Lab 01 - File Systems](Linux-Labs/Lab-01-File-System) | Navigation, Directory Structure |
-| 📂 [Lab 02 - File Management](Linux-Labs/Lab-02-File-Management) | Files, Directories, Copy, Move, Delete |
-| 🔒 [Lab 03 - Permissions](Linux-Labs/Lab-03-Permissions) | `chmod`, Least Privilege |
-| 👥 [Lab 04 - Users & Groups](Linux-Labs/Lab-04-Users-Groups) | IAM, User Enumeration, `sudo` |
-| ⚙️ [Lab 05 - Process Investigation](Linux-Labs/Lab-05-Process-Investigation) | `ps`, `top`, `grep`, Process Analysis |
-| 🌐 [Lab 06 - Network Investigation](Linux-Labs/Lab-06-Network-Investigation) | `ifconfig`, `netstat`, `ping`, `nslookup`, `traceroute` |
+| 📂 [Lab 01 - File Systems](./Linux-Labs/Lab-01-File-System/README.md) | Navigation, Directory Structure |
+| 📂 [Lab 02 - File Management](./Linux-Labs/Lab-02-File-Management/README.md) | Files, Directories, Copy, Move, Delete |
+| 🔒 [Lab 03 - Permissions](./Linux-Labs/Lab-03-Permissions/README.md) | `chmod`, Least Privilege |
+| 👥 [Lab 04 - Users & Groups](./Linux-Labs/Lab-04-Users-Groups/README.md) | IAM, User Enumeration, `sudo` |
+| ⚙️ [Lab 05 - Process Investigation](./Linux-Labs/Lab-05-Process-Investigation/README.md) | `ps`, `top`, `grep`, Process Analysis |
+| 🌐 [Lab 06 - Network Investigation](./Linux-Labs/Lab-06-Network-Investigation/README.md) | `ifconfig`, `netstat`, `ping`, `nslookup`, `traceroute` |
+| 📜 [Lab 07 - Log Analysis](./Linux-Labs/Lab-07-Log-Analysis/README.md) | System Logs, `head`, `tail`, `less`, `grep`, Log Review |
+| 🔍 [Lab 08 - Log Searching](./Linux-Labs/Lab-08-Log-Searching/README.md) | `grep`, Pattern Matching, Filtering, Log Investigation |
+| 🚨 [Lab 09 - Incident Response](./Linux-Labs/Lab-09-Incident-Response/README.md) | Evidence Collection, Process Review, Network Analysis, Incident Triage |
+| 🤖 [Lab 10 - Bash Automation](./Linux-Labs/Lab-10-Bash-Automation/README.md) | Bash Scripting, Variables, Loops, Automation |
 
 (Currently private — happy to share access on request.)
 
