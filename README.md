@@ -1,4 +1,4 @@
-<img width="1024" height="252" alt="image" src="https://github.com/user-attachments/assets/51f01737-36df-42d1-8042-6e949d544a37" />
+<img width="1024" height="252" alt="image" src="https://github.com/user-attachments/assets/72f652c7-06c1-4e1e-b70a-8e81a23023bb" />
 
 # Hey, I'm Joshua Anthony
 ## Former police officer, now building a career in IT & Cybersecurity — trading a badge for a keyboard, same commitment to protecting people and systems.
