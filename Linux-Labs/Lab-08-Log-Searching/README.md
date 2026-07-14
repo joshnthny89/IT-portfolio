@@ -32,7 +32,7 @@ Verified the current working directory and navigated to the macOS system log dir
 
 ### Screenshot
 
-
+<img width="427" height="49" alt="image" src="https://github.com/user-attachments/assets/872cbac7-2386-4640-9471-18eadbac25f2" />
 
 <sub><em>Navigated to the macOS system log directory and verified the current working directory before performing log searches.</em></sub>
 
@@ -48,7 +48,7 @@ Performed a case-insensitive search to locate entries containing the keyword **f
 
 ### Screenshot
 
-*(Insert Screenshot Here)*
+<img width="860" height="654" alt="image" src="https://github.com/user-attachments/assets/553a41b3-0938-4dd4-9f51-6dec750e194e" />
 
 <sub><em>Used the <code>grep</code> command to quickly locate failed events within the selected log file.</em></sub>
 
@@ -64,7 +64,7 @@ Counted the total number of log entries containing the keyword **failed**.
 
 ### Screenshot
 
-*(Insert Screenshot Here)*
+<img width="576" height="33" alt="image" src="https://github.com/user-attachments/assets/be70ae56-f9cb-453c-b7f7-d6ab604806b1" />
 
 <sub><em>Piped the output of <code>grep</code> into <code>wc -l</code> to determine the number of matching log entries.</em></sub>
 
