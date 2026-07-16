@@ -1,149 +1,158 @@
-# Lab 08 - Log Searching
+# 🔍 Lab 08 - Log Searching
 
-## Objective
+## Overview
 
-The objective of this lab is to demonstrate how command-line tools can be used to efficiently search, filter, and analyze system log files. Rather than manually reviewing thousands of log entries, administrators and security analysts use commands such as `grep`, `wc`, `sort`, `uniq`, and `cut` to locate relevant events, identify recurring patterns, and quickly extract useful information during troubleshooting and incident response.
+In this lab, I expanded on the previous log analysis exercises by using command-line tools to efficiently search, filter, and extract information from system log files. These techniques allow administrators and security analysts to quickly locate relevant events without manually reviewing large amounts of log data.
 
 ---
 
 ## Skills Demonstrated
 
-- Searching log files using `grep`
-- Performing case-insensitive searches
-- Counting matching log entries
-- Identifying repeated events
-- Sorting command output
-- Filtering duplicate results
-- Extracting specific fields from log entries
-- Using command pipelines
-- Basic log analysis techniques
-- Linux/macOS command-line proficiency
+- Log Searching
+- Pattern Matching
+- Event Filtering
+- Command Pipelines
+- Linux Command Line
+- Security Investigation
+- Troubleshooting
 
 ---
 
-# Step 1 - Navigate to the Logs Directory
+## Tools Used
 
-```bash
-cd /private/var/log
-pwd
-```
-
-Verified the current working directory and navigated to the macOS system log directory where log files are stored.
-
-### Screenshot
-
-<img width="427" height="49" alt="image" src="https://github.com/user-attachments/assets/872cbac7-2386-4640-9471-18eadbac25f2" />
-
-<sub><em>Navigated to the macOS system log directory and verified the current working directory before performing log searches.</em></sub>
+- macOS Terminal
+- grep
+- wc
+- sort
+- uniq
+- cut
 
 ---
 
-# Step 2 - Search for Failed Events
+# Search Workflow
+
+---
+
+## Step 1 – Search for Failed Events
+
+Performed a case-insensitive search to locate log entries containing the keyword **failed**.
+
+### Command Used
 
 ```bash
 grep -i "failed" keybagd.log.3
 ```
 
-Performed a case-insensitive search to locate entries containing the keyword **failed**.
-
 ### Screenshot
 
 <img width="860" height="654" alt="image" src="https://github.com/user-attachments/assets/553a41b3-0938-4dd4-9f51-6dec750e194e" />
 
-<sub><em>Used the <code>grep</code> command to quickly locate failed events within the selected log file.</em></sub>
+<sub><em>Used <code>grep -i</code> to locate log entries containing the keyword <code>failed</code>, demonstrating a common technique for identifying errors during troubleshooting and security investigations.</em></sub>
 
 ---
 
-# Step 3 - Count Matching Entries
+## Step 2 – Count Matching Events
+
+Counted the total number of matching log entries.
+
+### Command Used
 
 ```bash
 grep -i "failed" keybagd.log.3 | wc -l
 ```
 
-Counted the total number of log entries containing the keyword **failed**.
-
 ### Screenshot
 
 <img width="576" height="33" alt="image" src="https://github.com/user-attachments/assets/be70ae56-f9cb-453c-b7f7-d6ab604806b1" />
 
-<sub><em>Piped the output of <code>grep</code> into <code>wc -l</code> to determine the number of matching log entries.</em></sub>
+
+<sub><em>Combined <code>grep</code> with <code>wc -l</code> to quickly determine how many matching events were present within the log file.</em></sub>
 
 ---
 
-# Step 4 - Find Unique Error Messages
+## Step 3 – Identify Unique Results
+
+Sorted the search results and removed duplicate entries.
+
+### Command Used
 
 ```bash
 grep -i "failed" keybagd.log.3 | sort | uniq
 ```
-
-Sorted the search results and removed duplicate entries to identify unique log events.
 
 ### Screenshot
 
 <img width="853" height="652" alt="image" src="https://github.com/user-attachments/assets/79b6fced-7c9d-4297-984b-d635a05e11fc" />
 
 
-<sub><em>Sorted the search results and removed duplicate entries to identify unique failed events.</em></sub>
+<sub><em>Used a command pipeline to sort search results and remove duplicate entries, making recurring events easier to identify.</em></sub>
 
 ---
 
-# Step 5 - Search for Errors
+## Step 4 – Search for Multiple Event Types
+
+Searched for multiple keywords simultaneously.
+
+### Command Used
 
 ```bash
-grep -i "error" keybagd.log.3
+grep -Ei "failed|error" keybagd.log.3
 ```
-
-Searched the log file for entries containing the keyword **error**.
 
 ### Screenshot
 
-<img width="857" height="658" alt="image" src="https://github.com/user-attachments/assets/8b14a63d-8b6a-4338-b0e7-80b0df9ba3c5" />
+<img width="856" height="653" alt="image" src="https://github.com/user-attachments/assets/23250af4-e5a4-4f30-bd53-dcfd7aeabb6f" />
 
-
-<sub><em>Performed a case-insensitive search for log entries containing the keyword <code>error</code>.</em></sub>
-
----
-
-# Step 6 - Display the Most Recent Matching Events
-
-```bash
-grep -i "error" keybagd.log.3 | tail
-```
-
-Displayed the last several matching log entries to review the most recent events.
-
-### Screenshot
-
-<img width="856" height="318" alt="image" src="https://github.com/user-attachments/assets/823671dc-d17f-43a0-8b4b-237bbbf3835b" />
-
-
-<sub><em>Combined <code>grep</code> with <code>tail</code> to display the most recent matching log entries.</em></sub>
+<sub><em>Used an extended regular expression to search for multiple event types in a single command.</em></sub>
 
 ---
 
-# Step 7 - Extract Relevant Information
+## Step 5 – Extract Relevant Fields
+
+Reduced the output to display only the first six fields from each matching log entry.
+
+### Command Used
 
 ```bash
-grep -i "error" keybagd.log.3 | cut -d' ' -f1-6
+grep -i "failed" keybagd.log.3 | cut -d' ' -f1-6
 ```
-
-Extracted the first six fields from each matching log entry to simplify the output and focus on the timestamp and event information.
 
 ### Screenshot
 
 <img width="641" height="655" alt="image" src="https://github.com/user-attachments/assets/c7160d16-b068-466b-81cd-117631367572" />
 
-
-<sub><em>Used the <code>cut</code> command to extract specific fields from matching log entries, making the output easier to analyze.</em></sub>
-
----
-
-## What I Learned
-
-Throughout this lab, I practiced searching and filtering system log files using common command-line utilities. Rather than manually reviewing large amounts of log data, I used command pipelines to locate specific events, count occurrences, remove duplicate entries, and simplify output for analysis. These techniques improve efficiency during troubleshooting and incident response by allowing analysts to quickly focus on relevant information within large datasets.
+<sub><em>Used the <code>cut</code> command to extract selected fields from matching log entries, simplifying the output for analysis.</em></sub>
 
 ---
 
-## Analyst Observation
+## Step 6 – Save Search Results for Further Analysis
 
-Searching and filtering log files is a fundamental skill used by system administrators and Security Operations Center (SOC) analysts. Commands such as `grep`, `sort`, `uniq`, `wc`, `cut`, and `tail` allow large volumes of log data to be reduced into meaningful information, making it easier to identify recurring events, investigate errors, and establish timelines during security investigations.
+Redirected the matching log entries into a text file stored within my CyberLabs workspace for future review and documentation.
+
+### Command Used
+
+```bash
+grep -i "failed" /private/var/logs/keybagd.1og.3 >failed_events.txt
+cat ~/CyberLabs/failed_events.txt
+```
+
+### Screenshot
+
+<img width="853" height="305" alt="image" src="https://github.com/user-attachments/assets/3809700f-4096-42e1-86cb-15b7031d8f65" />
+
+
+
+<sub><em>Redirected matching log entries into <code>failed_events.txt</code> within my CyberLabs workspace, demonstrating how investigation results can be preserved for documentation and additional analysis.</em></sub>
+
+
+---
+
+## Skills Learned
+
+- Searching log files using keywords
+- Filtering events with grep
+- Counting matching log entries
+- Using pipelines to combine commands
+- Removing duplicate results
+- Extracting relevant data fields
+- Redirecting output for documentation
