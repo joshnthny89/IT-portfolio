@@ -142,8 +142,7 @@ cat ~/CyberLabs/failed_events.txt
 
 
 
-<sub><em>Redirected matching log entries into <code>failed_events.txt</code> within my CyberLabs workspace, demonstrating how investigation results can be preserved for documentation and additional analysis.</em></sub>
-
+<sub><em>Redirected matching log entries into <code>failed_events.txt</code> within my CyberLabs workspace, demonstrating how investigation results can be preserved for documentation and additional analysis. Then verified the contents of <code>failed_events.txt</code> with the <code>cat</code> command to ensure the filtered log entries were successfully exported and available for further investigation.</em></sub>
 
 ---
 
