@@ -1,4 +1,3 @@
-
 # 🛡️ Lab 09 - Incident Response
 
 ## Overview
@@ -57,7 +56,7 @@ whoami
 
 ### Screenshot
 
-![Step 1](screenshots/step1.png)
+<img width="328" height="59" alt="image" src="https://github.com/user-attachments/assets/1fafee6c-eb50-4229-b5a0-d68fa49ef834" />
 
 <sub><em>Established the investigation timeline and identified the active user account before collecting additional system information.</em></sub>
 
@@ -75,7 +74,8 @@ ps aux | head
 
 ### Screenshot
 
-![Step 2](screenshots/step2.png)
+<img width="852" height="226" alt="image" src="https://github.com/user-attachments/assets/ce5f39a1-e71e-44b7-8463-9f1b76d6221b" />
+
 
 <sub><em>Reviewed active processes to establish a baseline of running applications and services during the initial investigation.</em></sub>
 
@@ -93,7 +93,8 @@ netstat -an | head
 
 ### Screenshot
 
-![Step 3](screenshots/step3.png)
+<img width="1144" height="340" alt="image" src="https://github.com/user-attachments/assets/99a39a76-9cac-4968-a765-59561b4a51a7" />
+
 
 <sub><em>Reviewed active network connections to identify listening services and current network activity.</em></sub>
 
@@ -111,7 +112,8 @@ df -h
 
 ### Screenshot
 
-![Step 4](screenshots/step4.png)
+<img width="852" height="241" alt="image" src="https://github.com/user-attachments/assets/bd721bba-6e8f-4e06-a3aa-09e74e14b3e6" />
+
 
 <sub><em>Verified filesystem utilization as part of assessing overall system health during the investigation.</em></sub>
 
@@ -129,7 +131,8 @@ who
 
 ### Screenshot
 
-![Step 5](screenshots/step5.png)
+<img width="372" height="46" alt="image" src="https://github.com/user-attachments/assets/e4776659-ea02-41fa-add4-153e227a9166" />
+
 
 <sub><em>Reviewed active user sessions to identify users currently logged into the system.</em></sub>
 
@@ -142,14 +145,17 @@ Examined the most recent system log entries to identify any events that could as
 ### Command Used
 
 ```bash
-tail /private/var/log/keybagd.log.0
+tail /private/var/logs/keybagd.log.0
 ```
 
 ### Screenshot
 
-![Step 6](screenshots/step6.png)
+<img width="847" height="196" alt="image" src="https://github.com/user-attachments/assets/13134dee-91e0-490b-ad2f-6721e051e6a2" />
+
 
 <sub><em>Reviewed recent system log entries to identify events that may require additional investigation.</em></sub>
+
+<sub><em>Note: On this macOS system, the relevant log files were located in /private/var/logs/ rather than /private/var/log/. Commands throughout this lab were adjusted to reflect the actual file location on the host system.</em></sub>
 
 ---
 
@@ -168,3 +174,5 @@ The investigation followed a structured triage workflow by documenting the curre
 - Assessing system health
 - Reviewing system logs
 - Applying a structured investigation methodology
+
+
