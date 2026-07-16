@@ -148,10 +148,11 @@ cat ~/CyberLabs/failed_events.txt
 
 ## Skills Learned
 
-- Searching log files using keywords
-- Filtering events with grep
+- Searching system logs using keywords
+- Filtering events with `grep`
 - Counting matching log entries
-- Using pipelines to combine commands
-- Removing duplicate results
-- Extracting relevant data fields
-- Redirecting output for documentation
+- Using command pipelines to refine results
+- Extracting relevant data from log files
+- Redirecting command output to a file
+- Preserving investigation evidence for future analysis
+- Verifying exported log data
