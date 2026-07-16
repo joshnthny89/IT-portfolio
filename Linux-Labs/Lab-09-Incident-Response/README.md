@@ -3,7 +3,7 @@
 
 ## Overview
 
-In this lab, I simulated the initial triage process of a security incident by collecting key system information commonly reviewed during an investigation. The objective was to gather evidence, establish a system baseline, and identify indicators that may warrant further investigation.
+In this lab, I simulated the initial triage process of a potential security incident by collecting and reviewing key system information commonly examined during an investigation. Using native macOS command-line tools, I gathered evidence related to the active user, running processes, network activity, system health, and recent log events. This lab combines techniques learned throughout previous labs into a structured incident response workflow.
 
 ---
 
@@ -12,23 +12,31 @@ In this lab, I simulated the initial triage process of a security incident by co
 - Incident Response
 - Initial System Triage
 - Evidence Collection
-- Linux Administration
 - Process Enumeration
-- Network Investigation
-- Log Collection
+- Network Analysis
+- System Health Verification
+- Log Investigation
+- Linux/macOS Command Line
 
 ---
 
 ## Tools Used
 
 - macOS Terminal
-- date
-- whoami
-- ps
-- netstat
-- df
-- who
-- tail
+- Bash
+- `date`
+- `whoami`
+- `ps`
+- `netstat`
+- `df`
+- `who`
+- `tail`
+
+---
+
+# Investigation Scenario
+
+A user reported that their workstation was behaving unusually after installing new software. As the responding analyst, the objective was to perform an initial triage by gathering system information that could assist in identifying suspicious activity while documenting the system's current state.
 
 ---
 
@@ -36,9 +44,9 @@ In this lab, I simulated the initial triage process of a security incident by co
 
 ---
 
-## Step 1 – Identify Investigation Context
+## Step 1 – Establish the Investigation Context
 
-Collected the current date and active user.
+The investigation began by documenting the current date and identifying the active user account. Recording this information establishes the investigation timeline and identifies the user context associated with the system.
 
 ### Commands Used
 
@@ -51,13 +59,13 @@ whoami
 
 ![Step 1](screenshots/step1.png)
 
-<sub><em>Established the investigation timeframe and identified the active user context.</em></sub>
+<sub><em>Established the investigation timeline and identified the active user account before collecting additional system information.</em></sub>
 
 ---
 
 ## Step 2 – Review Running Processes
 
-Reviewed currently running processes.
+Reviewed the currently running processes to establish a baseline of active applications and services. This information helps identify unexpected or suspicious processes during an investigation.
 
 ### Command Used
 
@@ -69,13 +77,13 @@ ps aux | head
 
 ![Step 2](screenshots/step2.png)
 
-<sub><em>Collected process information to identify active applications and services.</em></sub>
+<sub><em>Reviewed active processes to establish a baseline of running applications and services during the initial investigation.</em></sub>
 
 ---
 
-## Step 3 – Examine Network Activity
+## Step 3 – Review Active Network Connections
 
-Reviewed current network connections.
+Examined active network connections and listening ports to identify current communication occurring on the system.
 
 ### Command Used
 
@@ -87,13 +95,13 @@ netstat -an | head
 
 ![Step 3](screenshots/step3.png)
 
-<sub><em>Reviewed active network connections and listening ports as part of the initial system triage.</em></sub>
+<sub><em>Reviewed active network connections to identify listening services and current network activity.</em></sub>
 
 ---
 
-## Step 4 – Verify System Resources
+## Step 4 – Verify Filesystem Health
 
-Checked filesystem utilization.
+Checked filesystem utilization to verify sufficient available disk space and identify any storage conditions that could impact logging or system performance.
 
 ### Command Used
 
@@ -105,13 +113,13 @@ df -h
 
 ![Step 4](screenshots/step4.png)
 
-<sub><em>Verified available disk space to identify potential storage issues that could impact system operation or logging.</em></sub>
+<sub><em>Verified filesystem utilization as part of assessing overall system health during the investigation.</em></sub>
 
 ---
 
-## Step 5 – Review Active Users
+## Step 5 – Review Active User Sessions
 
-Verified active user sessions.
+Reviewed currently logged-in users to determine which user sessions were active at the time of the investigation.
 
 ### Command Used
 
@@ -127,9 +135,9 @@ who
 
 ---
 
-## Step 6 – Collect Recent Log Activity
+## Step 6 – Review Recent System Log Activity
 
-Reviewed recent system log entries.
+Examined the most recent system log entries to identify any events that could assist in understanding recent system activity.
 
 ### Command Used
 
@@ -141,14 +149,22 @@ tail /private/var/log/keybagd.log.0
 
 ![Step 6](screenshots/step6.png)
 
-<sub><em>Collected recent log activity to identify system events and potential indicators requiring further investigation.</em></sub>
+<sub><em>Reviewed recent system log entries to identify events that may require additional investigation.</em></sub>
+
+---
+
+## Investigation Summary
+
+The investigation followed a structured triage workflow by documenting the current user, reviewing active processes, examining network connections, verifying system health, identifying active user sessions, and reviewing recent system log activity. While no specific indicators of compromise were identified during this simulated investigation, the workflow demonstrates a repeatable methodology commonly used during the early stages of incident response.
 
 ---
 
 ## Skills Learned
 
-- Performing initial incident response triage
-- Gathering system evidence
-- Reviewing processes and network activity
-- Collecting log data
-- Building a structured investigation workflow
+- Conducting an initial incident response triage
+- Collecting and documenting system evidence
+- Reviewing active processes
+- Investigating network activity
+- Assessing system health
+- Reviewing system logs
+- Applying a structured investigation methodology
