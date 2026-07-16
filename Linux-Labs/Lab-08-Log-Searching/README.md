@@ -80,7 +80,8 @@ Sorted the search results and removed duplicate entries to identify unique log e
 
 ### Screenshot
 
-*(Insert Screenshot Here)*
+<img width="853" height="652" alt="image" src="https://github.com/user-attachments/assets/79b6fced-7c9d-4297-984b-d635a05e11fc" />
+
 
 <sub><em>Sorted the search results and removed duplicate entries to identify unique failed events.</em></sub>
 
@@ -96,7 +97,8 @@ Searched the log file for entries containing the keyword **error**.
 
 ### Screenshot
 
-*(Insert Screenshot Here)*
+<img width="857" height="658" alt="image" src="https://github.com/user-attachments/assets/8b14a63d-8b6a-4338-b0e7-80b0df9ba3c5" />
+
 
 <sub><em>Performed a case-insensitive search for log entries containing the keyword <code>error</code>.</em></sub>
 
@@ -112,7 +114,8 @@ Displayed the last several matching log entries to review the most recent events
 
 ### Screenshot
 
-*(Insert Screenshot Here)*
+<img width="856" height="318" alt="image" src="https://github.com/user-attachments/assets/823671dc-d17f-43a0-8b4b-237bbbf3835b" />
+
 
 <sub><em>Combined <code>grep</code> with <code>tail</code> to display the most recent matching log entries.</em></sub>
 
@@ -128,7 +131,8 @@ Extracted the first six fields from each matching log entry to simplify the outp
 
 ### Screenshot
 
-*(Insert Screenshot Here)*
+<img width="641" height="655" alt="image" src="https://github.com/user-attachments/assets/c7160d16-b068-466b-81cd-117631367572" />
+
 
 <sub><em>Used the <code>cut</code> command to extract specific fields from matching log entries, making the output easier to analyze.</em></sub>
 
