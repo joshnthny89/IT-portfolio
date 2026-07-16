@@ -62,7 +62,7 @@ Linux Labs — a hands-on lab series documenting step-by-step tasks, screenshots
 | 📜 [Lab 07 - Log Analysis](./Linux-Labs/Lab-07-Log-Analysis/README.md) | System Logs, `head`, `tail`, `less`, `grep`, Log Review |
 | 🔍 [Lab 08 - Log Searching](./Linux-Labs/Lab-08-Log-Searching/README.md) | `grep`, Pattern Matching, Filtering, Log Investigation |
 | 🚨 [Lab 09 - Incident Response](./Linux-Labs/Lab-09-Incident-Response/README.md) | Evidence Collection, Process Review, Network Analysis, Incident Triage |
-| 🤖 [Lab 10 - Bash Automation](./Linux-Labs/Lab-10-Bash-Automation/README.md) | Bash Scripting, Variables, Loops, Automation |
+| 🤖 [Lab 10 - Bash Automation](./Linux-Labs/Lab-10-Basic-Automation/README.md) | Bash Scripting, Variables, Loops, Automation |
 
 (Currently private — happy to share access on request.)
 
