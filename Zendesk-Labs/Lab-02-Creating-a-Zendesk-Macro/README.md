@@ -33,7 +33,8 @@ Logged into Zendesk and navigated to the **Admin Center**. From the sidebar, sel
 
 ### Screenshot
 
-*(Insert screenshot of navigating to the Macros page.)*
+<img width="1429" height="656" alt="image" src="https://github.com/user-attachments/assets/6e6065e4-62e7-4cf4-a1b3-545d6009f936" />
+
 
 **Caption**
 
@@ -53,9 +54,7 @@ A descriptive name was chosen to make the macro easy to identify and reuse when 
 
 ### Screenshot
 
-*(Insert screenshot showing the new macro and its title.)*
-
-**Caption**
+<img width="1418" height="715" alt="image" src="https://github.com/user-attachments/assets/0b5d26fd-c49f-4f9f-9a4d-895e25ef44a8" />
 
 <sub><em>Created a new macro and assigned a descriptive name to clearly identify its intended support function.</em></sub>
 
@@ -92,9 +91,7 @@ This allows the same macro to be reused while still creating a personalized cust
 
 ### Screenshot
 
-*(Insert screenshot showing the completed macro response.)*
-
-**Caption**
+<img width="1422" height="722" alt="image" src="https://github.com/user-attachments/assets/113efa1f-f030-429d-b00d-5ab104638572" />
 
 <sub><em>Configured the macro using dynamic placeholders to automatically personalize responses while maintaining consistent support instructions.</em></sub>
 
