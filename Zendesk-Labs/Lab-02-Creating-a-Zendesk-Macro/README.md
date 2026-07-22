@@ -103,9 +103,7 @@ Reviewed the completed macro for accuracy before saving it. Once saved, the macr
 
 ### Screenshot
 
-*(Insert screenshot showing the completed macro after saving.)*
-
-**Caption**
+<img width="1427" height="721" alt="image" src="https://github.com/user-attachments/assets/272187aa-8ce1-4287-9a34-1f1c5c7067b3" />
 
 <sub><em>Saved the completed macro, making it available for future customer support requests and improving response efficiency.</em></sub>
 
