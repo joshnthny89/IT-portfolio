@@ -29,6 +29,6 @@ Through these exercises, I gained experience working with ticket workflows, prio
 | Lab 01 | Navigating the Zendesk Interface |
 | Lab 02 | Creating a Zendesk Macro |
 | Lab 03 | Responding to a Support Ticket |
-| Lab 04 | Ticket Priorotozation |
+| Lab 04 | Ticket Prioritization |
 | Lab 05 | Views & Filters |
 | Lab 06 | Ticket Lifestyle |
