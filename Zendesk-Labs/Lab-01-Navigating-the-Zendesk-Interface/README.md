@@ -33,9 +33,7 @@ After signing in, the Zendesk Agent Workspace dashboard is displayed, providing 
 
 ### Screenshot
 
-*(Insert screenshot of the Zendesk dashboard immediately after logging in.)*
-
-**Caption**
+<img width="1431" height="728" alt="image" src="https://github.com/user-attachments/assets/d5bbeae8-18bc-4033-9421-9369f4b059c8" />
 
 <sub><em>Logged into the Zendesk Support portal and accessed the Agent Workspace dashboard.</em></sub>
 
@@ -57,10 +55,11 @@ The navigation panel provides access to common Zendesk features including:
 Understanding the layout allows support technicians to efficiently navigate the platform during daily operations.
 
 ### Screenshot
+<img width="1426" height="709" alt="image" src="https://github.com/user-attachments/assets/c4422f43-d8db-437c-a11d-d84e509bcf08" />
 
-*(Insert screenshot highlighting the left navigation menu.)*
+<img width="1422" height="713" alt="image" src="https://github.com/user-attachments/assets/425fe8e4-bb74-4a76-88b7-c1b6b94fc719" />
 
-**Caption**
+<img width="1424" height="406" alt="image" src="https://github.com/user-attachments/assets/612415c0-8689-4760-ad5b-473bfeb71e68" />
 
 <sub><em>Explored the primary navigation menu used to access tickets, customers, reporting, and administrative tools.</em></sub>
 
@@ -83,9 +82,9 @@ Reviewed the information available within the ticket including:
 
 ### Screenshot
 
-*(Insert screenshot of an open ticket.)*
+<img width="1429" height="728" alt="image" src="https://github.com/user-attachments/assets/0b3e4cef-d3ef-4568-9050-ef905bfdb092" />
+<img width="1432" height="661" alt="image" src="https://github.com/user-attachments/assets/f02a39ad-898f-4aef-acca-f567fddeadef" />
 
-**Caption**
 
 <sub><em>Reviewed the Zendesk ticket workspace to become familiar with the information available when managing customer support requests.</em></sub>
 
@@ -108,9 +107,9 @@ These tools are commonly used throughout the ticket lifecycle to document, updat
 
 ### Screenshot
 
-*(Insert screenshot highlighting the ticket workspace tools.)*
+<img width="1423" height="721" alt="image" src="https://github.com/user-attachments/assets/de29521c-3ec9-4034-8c54-784e0aed34b0" />
 
-**Caption**
+<img width="1418" height="730" alt="image" src="https://github.com/user-attachments/assets/0f169411-377d-49a6-8e25-fa81ab333ffc" />
 
 <sub><em>Explored the tools available within the ticket workspace that support ticket management and customer communication.</em></sub>
 
@@ -132,9 +131,7 @@ Understanding ticket statuses is essential for accurately tracking customer requ
 
 ### Screenshot
 
-*(Insert screenshot showing the ticket status dropdown.)*
-
-**Caption**
+<img width="1427" height="723" alt="image" src="https://github.com/user-attachments/assets/510181e7-6058-4cb5-8c19-fe541ea5ffb2" />
 
 <sub><em>Reviewed the available ticket status options used to track the progress of support requests.</em></sub>
 
