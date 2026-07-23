@@ -27,14 +27,15 @@ Through these exercises, I gained experience working with ticket workflows, prio
 This repository documents hands-on exercises completed in the Zendesk Cloud Support Portal. These labs demonstrate practical experience with customer support workflows, ticket management, automation, and service desk best practices commonly used in IT Help Desk and Technical Support roles.
 
 ---
-
 ## Labs
 
 | Lab | Topic |
-|:---:|---|
-| 📂 [Lab 01 - Navigating the Zendesk Interface](Lab-01-Navigating-the-Zendesk-Interface/README.md) | Learn the Zendesk workspace, ticket panes, navigation, and agent tools. |
-| 📂 [Lab 02 - Creating a Zendesk Macro](Lab-02-Creating-a-Zendesk-Macro/README.md) | Create and apply reusable macros with dynamic placeholders to improve response efficiency. |
-| 📂 [Lab 03 - Responding to a Support Ticket](Lab-03-Responding-to-a-Support-Ticket/README.md) | Work a customer support ticket from creation through resolution using Zendesk best practices. |
-| 📂 [Lab 04 - Ticket Prioritization](Lab-04-Ticket-Prioritization/README.md) | Organize and prioritize tickets based on urgency, impact, and business requirements. |
-| 📂 [Lab 05 - Views & Filters](Lab-05-Views-&-Filters/README.md) | Create custom ticket views and filters to improve workflow and productivity. |
-| 📂 [Lab 06 - Ticket Lifecycle](Lab-06-Ticket-Lifecycle/README.md) | Follow a ticket through its complete lifecycle from creation to closure. |
+| --- | --- |
+| [Lab&nbsp;01](./Lab-01-Navigating-the-Zendesk-Interface/) | **Navigating the Zendesk Interface** — Learn the Zendesk workspace, ticket panes, navigation, and agent tools. |
+| [Lab&nbsp;02](./Lab-02-Creating-a-Zendesk-Macro/) | **Creating a Zendesk Macro** — Create and apply reusable macros with dynamic placeholders to improve response efficiency. |
+| [Lab&nbsp;03](./Lab-03-Responding-to-a-Support-Ticket/) | **Responding to a Support Ticket** — Work a customer support ticket from creation through resolution using Zendesk best practices. |
+| [Lab&nbsp;04](./Lab-04-Ticket-Prioritization/) | **Ticket Prioritization** — Organize and prioritize tickets based on urgency, impact, and business requirements. |
+| [Lab&nbsp;05](./Lab-05-Views-and-Filters/) | **Views & Filters** — Create custom ticket views and filters to improve workflow and productivity. |
+| [Lab&nbsp;06](./Lab-06-Ticket-Lifecycle/) | **Ticket Lifecycle** — Follow a ticket through its complete lifecycle from creation to closure. |
+
+
