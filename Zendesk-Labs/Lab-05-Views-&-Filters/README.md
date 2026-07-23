@@ -36,9 +36,7 @@ Views provide organized lists of tickets based on specific conditions, allowing 
 
 ### Screenshot
 
-*(Insert screenshot showing the Views navigation.)*
-
-**Caption**
+<img width="1426" height="688" alt="image" src="https://github.com/user-attachments/assets/e4e5a6aa-5f7e-42d5-9bb4-7d9fc0a5acfd" />
 
 <sub><em>Accessed the Zendesk Views menu to organize and manage support tickets more efficiently.</em></sub>
 
@@ -60,9 +58,7 @@ These predefined views help support teams quickly identify tickets based on thei
 
 ### Screenshot
 
-*(Insert screenshot displaying the available Views.)*
-
-**Caption**
+<img width="1426" height="668" alt="image" src="https://github.com/user-attachments/assets/96bed2d8-00df-4ccc-ad41-2537aabd490d" />
 
 <sub><em>Reviewed the available ticket views used to organize support requests by status, ownership, and activity.</em></sub>
 
@@ -76,11 +72,12 @@ Filtering tickets allows agents to reduce unnecessary information and focus on t
 
 ### Screenshot
 
-*(Insert screenshot showing a filtered list of tickets.)*
+<img width="1423" height="771" alt="image" src="https://github.com/user-attachments/assets/0671c8d7-dae0-4460-b59a-330cc3b33d9a" />
 
-**Caption**
+<img width="1420" height="666" alt="image" src="https://github.com/user-attachments/assets/43327f7b-b72b-4399-8009-dd1c90c47963" />
 
-<sub><em>Applied a ticket view to display only the support requests matching the selected criteria.</em></sub>
+
+<sub><em>Applied a ticket view to display only the support requests matching the selected criteria (Problem).</em></sub>
 
 ---
 
