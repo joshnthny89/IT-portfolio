@@ -339,12 +339,12 @@ using Splunk Cloud for monitoring, investigating, and interpreting security-rela
 
 <tr>
 <td width="20%" align="center">
-<a href="./Splunk-Cloud-Labs/Lab-06-Visualizations-&-Dashboards/">
+<a href="./Splunk-Cloud-Labs/Lab-06-Dashboards-&-Visualizations/">
 📈 <strong>Lab 06</strong>
 </a>
 </td>
 <td>
-<strong>Visualizations & Dashboards</strong> — Creating charts, dashboards, reports, and security monitoring views.
+<strong>Dashboards & Visualizations</strong> — Creating charts, dashboards, reports, and security monitoring views.
 </td>
 </tr>
 
