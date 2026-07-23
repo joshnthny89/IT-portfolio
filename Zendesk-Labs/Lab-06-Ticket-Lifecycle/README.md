@@ -34,9 +34,7 @@ Verified the customer's information, subject, and issue description before begin
 
 ### Screenshot
 
-*(Insert screenshot showing the newly created ticket.)*
-
-**Caption**
+<img width="1430" height="730" alt="image" src="https://github.com/user-attachments/assets/eb213e8a-07b7-46fd-9967-69e016709562" />
 
 <sub><em>Reviewed the newly submitted support request and gathered the information necessary to begin troubleshooting.</em></sub>
 
@@ -59,9 +57,8 @@ This initial assessment ensures the ticket is ready to move through the support 
 
 ### Screenshot
 
-*(Insert screenshot of the ticket details.)*
+<img width="1428" height="728" alt="image" src="https://github.com/user-attachments/assets/96abdc39-d131-4593-9527-a07501a7772a" />
 
-**Caption**
 
 <sub><em>Reviewed the ticket details to assess the customer's issue and prepare an appropriate response.</em></sub>
 
@@ -83,9 +80,8 @@ Changing the ticket status accurately reflects the current stage of the support 
 
 ### Screenshot
 
-*(Insert screenshot showing the status change.)*
+<img width="1426" height="731" alt="image" src="https://github.com/user-attachments/assets/ada5c4ea-fa20-4389-adbd-09471189b6f0" />
 
-**Caption**
 
 <sub><em>Updated the ticket status to accurately reflect the current stage of the support process.</em></sub>
 
@@ -99,9 +95,8 @@ If applicable, utilized the previously created macro to provide consistent and p
 
 ### Screenshot
 
-*(Insert screenshot showing the customer reply.)*
+<img width="630" height="571" alt="image" src="https://github.com/user-attachments/assets/165b095e-93fa-4704-8c07-57409bb68d54" />
 
-**Caption**
 
 <sub><em>Responded to the customer while documenting the interaction within the support ticket.</em></sub>
 
@@ -115,9 +110,8 @@ Documented the completed work and verified that all required ticket information 
 
 ### Screenshot
 
-*(Insert screenshot showing the ticket marked as Solved.)*
+<img width="1428" height="719" alt="image" src="https://github.com/user-attachments/assets/ab909d92-933d-4765-949c-ee50554b9843" />
 
-**Caption**
 
 <sub><em>Completed the support request by documenting the resolution and updating the ticket status to <strong>Solved</strong>.</em></sub>
 
@@ -135,9 +129,8 @@ Performed a final review of the completed ticket to verify that:
 
 ### Screenshot
 
-*(Insert screenshot of the completed ticket.)*
-
-**Caption**
+<img width="1423" height="714" alt="image" src="https://github.com/user-attachments/assets/5f66c741-9db1-40de-8d37-4f6eb458e366" />
+<img width="1426" height="726" alt="image" src="https://github.com/user-attachments/assets/73ed41f3-bcd1-4fc4-b7dc-b08aa5e157bd" />
 
 <sub><em>Reviewed the completed ticket to ensure all customer interactions and resolution details were properly documented.</em></sub>
 
