@@ -27,12 +27,12 @@ Rather than using a locally hosted Splunk instance, these exercises were complet
 ## Labs
 
 | Lab | Topic |
-|------|-------|
-| Lab 01 | Splunk Cloud Introduction |
-| Lab 02 | Searching & Filtering |
-| Lab 03 | Working with Fields |
-| Lab 04 | SPL Fundamentals |
-| Lab 05 | Statistical Commands |
-| Lab 06 | Visualizations & Dashboards |
-| Lab 07 | Alerts & Reports |
-| Lab 08 | Security Investigation |
+|:---:|:------|
+| **[Lab 01](./Lab-01-Splunk-Cloud-Introduction/)** | Splunk Cloud Introduction |
+| **[Lab 02](./Lab-02-Searching-&-Filtering/)** | Searching & Filtering |
+| **[Lab 03](./Lab-03-Working-with-Fields/)** | Working with Fields |
+| **[Lab 04](./Lab-04-SPL-Fundamentals/)** | SPL Fundamentals |
+| **[Lab 05](./Lab-05-Statistical-Commands/)** | Statistical Commands |
+| **[Lab 06](./Lab-06-Visualizations-&-Dashboards/)** | Visualizations & Dashboards |
+| **[Lab 07](./Lab-07-Alerts-&-Reports/)** | Alerts & Reports |
+| **[Lab 08](./Lab-08-Security-Investigation/)** | Security Investigation |
