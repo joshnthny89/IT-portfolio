@@ -94,10 +94,9 @@ Confirmed items such as:
 - Subject
 
 ### Screenshot
+<img width="1429" height="612" alt="image" src="https://github.com/user-attachments/assets/1201bc4a-a3c8-4359-b393-2a2735465e8b" />
+<img width="1436" height="687" alt="image" src="https://github.com/user-attachments/assets/0d41d27f-6683-44c4-9392-7aca3271d4b4" />
 
-*(Insert screenshot of an opened ticket from the filtered view.)*
-
-**Caption**
 
 <sub><em>Reviewed a ticket from the filtered results to verify that it matched the selected view criteria.</em></sub>
 
@@ -111,9 +110,10 @@ Understanding how to navigate between Views improves efficiency when managing a 
 
 ### Screenshot
 
-*(Insert screenshot showing multiple Views being selected.)*
+<img width="1420" height="625" alt="image" src="https://github.com/user-attachments/assets/2704df4c-3181-4d0f-9887-22d44607c59c" />
 
-**Caption**
+<img width="1435" height="663" alt="image" src="https://github.com/user-attachments/assets/ea61339f-3f75-4d17-bcd1-9b8ef37f7eed" />
+<img width="1424" height="658" alt="image" src="https://github.com/user-attachments/assets/ce875c4e-0bc2-4721-a09b-be68e59fd948" />
 
 <sub><em>Switched between multiple ticket views to efficiently navigate and organize support requests.</em></sub>
 
