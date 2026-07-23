@@ -49,20 +49,330 @@ Incident response & documentation · chain of custody / evidence handling · rep
 
 # 📁 Featured Repository
 
-Linux Labs — a hands-on lab series documenting step-by-step tasks, screenshots, and skills learned for each exercise. Started with core Linux/macOS administration (file systems, permissions, users & groups, process and network investigation) and is actively growing toward SOC-style scenarios — log analysis, SIEM alert triage, network traffic analysis, and incident response workflows.
+<h2>🐧 Linux Labs</h2>
 
-| Lab | Skills |
-|------|--------|
-| 📂 [Lab 01 - File Systems](./Linux-Labs/Lab-01-File-System/README.md) | Navigation, Directory Structure |
-| 📂 [Lab 02 - File Management](./Linux-Labs/Lab-02-File-Management/README.md) | Files, Directories, Copy, Move, Delete |
-| 🔒 [Lab 03 - Permissions](./Linux-Labs/Lab-03-Permissions/README.md) | `chmod`, Least Privilege |
-| 👥 [Lab 04 - Users & Groups](./Linux-Labs/Lab-04-Users-Groups/README.md) | IAM, User Enumeration, `sudo` |
-| ⚙️ [Lab 05 - Process Investigation](./Linux-Labs/Lab-05-Process-Investigation/README.md) | `ps`, `top`, `grep`, Process Analysis |
-| 🌐 [Lab 06 - Network Investigation](./Linux-Labs/Lab-06-Network-Investigation/README.md) | `ifconfig`, `netstat`, `ping`, `nslookup`, `traceroute` |
-| 📜 [Lab 07 - Log Analysis](./Linux-Labs/Lab-07-Log-Analysis/README.md) | System Logs, `head`, `tail`, `less`, `grep`, Log Review |
-| 🔍 [Lab 08 - Log Searching](./Linux-Labs/Lab-08-Log-Searching/README.md) | `grep`, Pattern Matching, Filtering, Log Investigation |
-| 🚨 [Lab 09 - Incident Response](./Linux-Labs/Lab-09-Incident-Response/README.md) | Evidence Collection, Process Review, Network Analysis, Incident Triage |
-| 🤖 [Lab 10 - Bash Automation](./Linux-Labs/Lab-10-Basic-Automation/README.md) | Bash Scripting, Variables, Loops, Automation |
+<hr>
+
+<p>
+Linux Labs — a hands-on lab series documenting practical Linux and macOS administration 
+skills through command-line exercises, system investigation, and security-focused workflows. 
+These labs cover foundational concepts including file systems, permissions, user management, 
+process analysis, networking, log investigation, incident response, and automation.
+</p>
+
+<table>
+<tr>
+<th>Lab</th>
+<th>Skills</th>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-01-File-Systems/">
+📁 <strong>Lab 01</strong>
+</a>
+</td>
+<td>
+<strong>File Systems</strong> — Navigation, directory structure, filesystem organization, and command-line fundamentals.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-02-File-Management/">
+📁 <strong>Lab 02</strong>
+</a>
+</td>
+<td>
+<strong>File Management</strong> — File creation, directories, copying, moving, deleting, and managing files through the terminal.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-03-Permissions/">
+🔒 <strong>Lab 03</strong>
+</a>
+</td>
+<td>
+<strong>Permissions</strong> — Linux permissions, <code>chmod</code>, access control, and least privilege principles.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-04-Users-Groups/">
+👥 <strong>Lab 04</strong>
+</a>
+</td>
+<td>
+<strong>Users & Groups</strong> — IAM concepts, user enumeration, account management, groups, and <code>sudo</code> administration.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-05-Process-Investigation/">
+⚙️ <strong>Lab 05</strong>
+</a>
+</td>
+<td>
+<strong>Process Investigation</strong> — Process analysis using <code>ps</code>, <code>top</code>, <code>grep</code>, and system activity investigation.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-06-Network-Investigation/">
+🌐 <strong>Lab 06</strong>
+</a>
+</td>
+<td>
+<strong>Network Investigation</strong> — Network troubleshooting using <code>ifconfig</code>, <code>netstat</code>, <code>ping</code>, <code>nslookup</code>, and <code>traceroute</code>.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-07-Log-Analysis/">
+📜 <strong>Lab 07</strong>
+</a>
+</td>
+<td>
+<strong>Log Analysis</strong> — Reviewing system logs, navigating log files, using <code>head</code>, <code>tail</code>, <code>less</code>, and identifying relevant events.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-08-Log-Searching/">
+🔎 <strong>Lab 08</strong>
+</a>
+</td>
+<td>
+<strong>Log Searching</strong> — Searching logs with <code>grep</code>, pattern matching, filtering, and event investigation.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-09-Incident-Response/">
+🚨 <strong>Lab 09</strong>
+</a>
+</td>
+<td>
+<strong>Incident Response</strong> — Evidence collection, process review, network analysis, and incident triage workflows.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Linux-Labs/Lab-10-Bash-Automation/">
+🤖 <strong>Lab 10</strong>
+</a>
+</td>
+<td>
+<strong>Bash Automation</strong> — Bash scripting, variables, loops, automation concepts, and reducing repetitive tasks.
+</td>
+</tr>
+
+</table>
+
+<h2>🎫 Zendesk Labs</h2>
+
+<hr>
+
+<p>
+Zendesk Labs — a hands-on customer support and ticketing workflow lab series focused on 
+support operations, ticket management, automation, prioritization, and customer communication. 
+These labs demonstrate practical help desk workflows using Zendesk, including creating macros, 
+responding to support requests, organizing tickets, managing views, and following the complete 
+ticket lifecycle from creation through resolution.
+</p>
+
+<table>
+<tr>
+<th>Lab</th>
+<th>Skills</th>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Zendesk-Labs/Lab-01-Navigating-the-Zendesk-Interface/">
+📁 <strong>Lab 01</strong>
+</a>
+</td>
+<td>
+<strong>Navigating the Zendesk Interface</strong> — Zendesk workspace navigation, ticket views, agent tools, and understanding the support environment.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Zendesk-Labs/Lab-02-Creating-a-Zendesk-Macro/">
+📁 <strong>Lab 02</strong>
+</a>
+</td>
+<td>
+<strong>Creating a Zendesk Macro</strong> — Creating reusable response templates, using dynamic placeholders, and improving support response efficiency through automation.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Zendesk-Labs/Lab-03-Responding-to-a-Support-Ticket/">
+📁 <strong>Lab 03</strong>
+</a>
+</td>
+<td>
+<strong>Responding to a Support Ticket</strong> — Managing customer requests, applying macros, documenting responses, and following support communication best practices.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Zendesk-Labs/Lab-04-Ticket-Prioritization/">
+📁 <strong>Lab 04</strong>
+</a>
+</td>
+<td>
+<strong>Ticket Prioritization</strong> — Ticket severity assessment, urgency evaluation, impact analysis, and prioritization workflows.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Zendesk-Labs/Lab-05-Views-&-Filters/">
+📁 <strong>Lab 05</strong>
+</a>
+</td>
+<td>
+<strong>Views & Filters</strong> — Creating custom ticket views, filtering support queues, and improving workflow organization.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Zendesk-Labs/Lab-06-Ticket-Lifecycle/">
+📁 <strong>Lab 06</strong>
+</a>
+</td>
+<td>
+<strong>Ticket Lifecycle</strong> — Following tickets from creation through assignment, escalation, resolution, and closure.
+</td>
+</tr>
+
+</table>
+
+
+<h2>🔎 Splunk Cloud Labs</h2>
+
+<hr>
+
+<p>
+Splunk Cloud Labs — a hands-on SIEM-focused lab series exploring log searching, 
+data analysis, SPL queries, field extraction, statistical analysis, dashboards, alerts, 
+and security investigations. These labs demonstrate foundational SOC analyst workflows 
+using Splunk Cloud for monitoring, investigating, and interpreting security-related data.
+</p>
+
+<table>
+<tr>
+<th>Lab</th>
+<th>Skills</th>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Splunk-Cloud-Labs/Lab-01-Splunk-Cloud-Introduction/">
+📁 <strong>Lab 01</strong>
+</a>
+</td>
+<td>
+<strong>Splunk Cloud Introduction</strong> — Splunk Cloud navigation, search interface, datasets, and SIEM fundamentals.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Splunk-Cloud-Labs/Lab-02-Searching-&-Filtering-Data/">
+🔎 <strong>Lab 02</strong>
+</a>
+</td>
+<td>
+<strong>Searching & Filtering Data</strong> — SPL searching, filtering events, keywords, search refinement, and data investigation.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Splunk-Cloud-Labs/Lab-03-Working-with-Fields/">
+🏷️ <strong>Lab 03</strong>
+</a>
+</td>
+<td>
+<strong>Working with Fields</strong> — Field discovery, field extraction, event analysis, and structured data interpretation.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Splunk-Cloud-Labs/Lab-04-SPL-Fundamentals/">
+💻 <strong>Lab 04</strong>
+</a>
+</td>
+<td>
+<strong>SPL Fundamentals</strong> — Building search queries, using SPL commands, filtering results, and analyzing events.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Splunk-Cloud-Labs/Lab-05-Statistical-Commands/">
+📊 <strong>Lab 05</strong>
+</a>
+</td>
+<td>
+<strong>Statistical Commands</strong> — Using statistical functions, event aggregation, calculations, and data analysis techniques.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Splunk-Cloud-Labs/Lab-06-Visualizations-&-Dashboards/">
+📈 <strong>Lab 06</strong>
+</a>
+</td>
+<td>
+<strong>Visualizations & Dashboards</strong> — Creating charts, dashboards, reports, and security monitoring views.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Splunk-Cloud-Labs/Lab-07-Alerts-&-Reports/">
+🚨 <strong>Lab 07</strong>
+</a>
+</td>
+<td>
+<strong>Alerts & Reports</strong> — Creating alerts, scheduled searches, reporting workflows, and monitoring use cases.
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+<a href="./Splunk-Cloud-Labs/Lab-08-Security-Investigation/">
+🛡️ <strong>Lab 08</strong>
+</a>
+</td>
+<td>
+<strong>Security Investigation</strong> — Investigating security events, analyzing suspicious activity, and applying SOC investigation workflows.
+</td>
+</tr>
+
+</table>
+
+
 
 (Currently private — happy to share access on request.)
 
