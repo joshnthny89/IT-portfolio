@@ -68,7 +68,7 @@ process analysis, networking, log investigation, incident response, and automati
 
 <tr>
 <td width="20%" align="center">
-<a href="./Linux-Labs/Lab-01-File-Systems/">
+<a href="./Linux-Labs/Lab-01-File-System/">
 📁 <strong>Lab 01</strong>
 </a>
 </td>
