@@ -167,7 +167,7 @@ process analysis, networking, log investigation, incident response, and automati
 
 <tr>
 <td width="20%" align="center">
-<a href="./Linux-Labs/Lab-10-Bash-Automation/">
+<a href="./Linux-Labs/Lab-10-Basic-Automation/">
 🤖 <strong>Lab 10</strong>
 </a>
 </td>
