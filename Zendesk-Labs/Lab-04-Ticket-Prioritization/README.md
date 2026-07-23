@@ -38,10 +38,9 @@ Before assigning a priority level, gathered the available information including:
 - Current ticket status
 
 ### Screenshot
+<img width="1428" height="658" alt="image" src="https://github.com/user-attachments/assets/3c8dfde3-8517-4744-8842-d2eb1dde75fd" />
 
-*(Insert screenshot of the newly opened ticket.)*
 
-**Caption**
 
 <sub><em>Reviewed the incoming support request to understand the customer's issue before determining its priority.</em></sub>
 
@@ -58,9 +57,7 @@ Using both factors helps determine the appropriate priority level while ensuring
 
 ### Screenshot
 
-*(Insert screenshot of the ticket details during evaluation.)*
-
-**Caption**
+<img width="1428" height="684" alt="image" src="https://github.com/user-attachments/assets/93f2fef2-4115-4e8f-b2ff-3da7f4e0d6b7" />
 
 <sub><em>Assessed the ticket by evaluating its business impact and urgency before assigning a priority.</em></sub>
 
@@ -81,9 +78,7 @@ The selected priority reflects the overall severity of the customer's issue and 
 
 ### Screenshot
 
-*(Insert screenshot showing the priority field.)*
-
-**Caption**
+<img width="1428" height="683" alt="image" src="https://github.com/user-attachments/assets/40ef5111-237a-4bdc-947b-1a5c72f75905" />
 
 <sub><em>Assigned an appropriate priority level based on the customer's issue and its potential business impact.</em></sub>
 
@@ -92,14 +87,13 @@ The selected priority reflects the overall severity of the customer's issue and 
 ## Step 4 – Review the Updated Ticket
 
 Verified that the ticket information, status, and priority were correctly updated.
-
+Sent a password reset to the customer within the Customer Tab via Security Settings.
 Reviewed the completed ticket to ensure it accurately reflected the customer's issue and was ready to proceed through the support workflow.
 
 ### Screenshot
 
-*(Insert screenshot of the completed ticket after updating the priority.)*
-
-**Caption**
+<img width="1433" height="628" alt="image" src="https://github.com/user-attachments/assets/59d5d864-4103-4161-a7e3-e4db50493633" />
+<img width="1436" height="683" alt="image" src="https://github.com/user-attachments/assets/72fbb8e2-c8aa-4164-8e9d-52e2f0582e16" />
 
 <sub><em>Reviewed the updated ticket to verify that the assigned priority accurately reflected the customer's reported issue.</em></sub>
 
