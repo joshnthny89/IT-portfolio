@@ -1,5 +1,6 @@
 # ☁️ Splunk Cloud Labs
-
+# 🚧 UNDER CONSTRUCTION 🚧
+# Note: Labs will be upoaded shortly
 ## Overview
 
 This section of my IT Portfolio documents my hands-on experience using **Splunk Cloud Platform** to perform log analysis, event searching, data visualization, and security investigations. These labs demonstrate practical Security Information and Event Management (SIEM) skills commonly used by Security Operations Center (SOC) analysts.
