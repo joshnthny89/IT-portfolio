@@ -374,7 +374,7 @@ using Splunk Cloud for monitoring, investigating, and interpreting security-rela
 
 
 
-(Currently private — happy to share access on request.)
+
 
 # 📌 Current Learning Goals
 
