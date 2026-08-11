@@ -2,24 +2,26 @@
 
 ## Objective
 
-Become familiar with the Splunk Cloud Platform by exploring the user interface, identifying the primary navigation menus, and understanding how Splunk organizes machine data for searching, monitoring, and security investigations. This lab establishes the foundation for future labs involving Search Processing Language (SPL), dashboards, alerts, and incident investigations.
+Become familiar with the Splunk Cloud Platform by exploring the user interface, identifying the primary navigation menus, and understanding how Splunk organizes machine data for searching, monitoring, and security investigations. This lab establishes the foundation for future labs involving Search Processing Language (SPL), dashboards, alerts, and incident investigations, incorporating core SIEM architectural principles like schema-on-read and metadata field indexing.
 
 ---
 
 ## Skills Practiced
 
 - Splunk Cloud Navigation
-- SIEM Fundamentals
-- Security Monitoring
-- Data Exploration
-- Splunk User Interface
+- SIEM Fundamentals & Tenant Architecture
+- Security Monitoring & Log Management
+- Data Exploration & Schema-on-Read
+- Splunk User Interface (Search & Reporting)
+- Metadata & Extracted Field Analysis
 - Log Management
+
 
 ---
 
 ## Tools Used
 
-- Splunk Cloud Platform
+- Splunk Cloud Platform (SaaS Tenant)
 - Web Browser
 
 ---
@@ -30,7 +32,7 @@ Become familiar with the Splunk Cloud Platform by exploring the user interface, 
 
 Logged into the Splunk Cloud Platform using an authorized user account.
 
-After authentication, the Splunk Cloud home dashboard was displayed, providing access to the Search & Reporting application and other Splunk features.
+After authentication against the secure tenant URL, session initialization was governed by Role-Based Access Control (RBAC). The Splunk Cloud home dashboard was then displayed, providing centralized access to the Search & Reporting application, management panels, and global navigation controls.
 
 ### Screenshot
 
@@ -49,8 +51,8 @@ Reviewed the main Splunk dashboard and identified commonly used navigation areas
 - Search & Reporting
 - Apps
 - Dashboards
-- Activity
-- Settings
+- Activity 
+- Settings 
 - Help
 
 Understanding the dashboard layout provides the foundation for navigating Splunk efficiently during future investigations.
@@ -157,3 +159,4 @@ This lab introduced the Splunk Cloud Platform and its primary interface. By expl
 - Identifying indexed data
 - Understanding extracted fields
 - Becoming familiar with the Splunk interface
+
