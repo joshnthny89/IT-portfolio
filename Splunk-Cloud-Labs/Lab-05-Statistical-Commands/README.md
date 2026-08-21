@@ -144,6 +144,7 @@ index=* | chart count by source
 **Caption**
 
 <sub><em>Created a simple chart to visualize event activity across multiple sources.</em></sub>
+
 ---
 
 ## Step 6 – Compare Statistical Results
