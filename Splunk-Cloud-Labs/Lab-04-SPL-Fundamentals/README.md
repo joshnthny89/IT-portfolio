@@ -44,7 +44,8 @@ Running a broad search establishes a baseline before applying additional command
 
 ### Screenshot
 
-*(Insert screenshot.)*
+<img width="1280" height="911" alt="image" src="https://github.com/user-attachments/assets/741dc68c-a631-4fa1-bced-2cf594c5bae9" />
+
 
 **Caption**
 
@@ -64,7 +65,8 @@ Displaying only relevant fields makes the search results easier to read and allo
 
 ### Screenshot
 
-*(Insert screenshot.)*
+<img width="1271" height="910" alt="image" src="https://github.com/user-attachments/assets/ec9bcfe1-b907-4cba-9361-73114d3f7c7c" />
+
 
 **Caption**
 
@@ -84,7 +86,8 @@ Sorting the results places the newest events at the top, making it easier to rev
 
 ### Screenshot
 
-*(Insert screenshot.)*
+<img width="1264" height="906" alt="image" src="https://github.com/user-attachments/assets/5751347f-546c-4fa2-9330-df8e9335a33f" />
+
 
 **Caption**
 
@@ -104,7 +107,9 @@ Limiting the output allows analysts to quickly review a manageable sample of dat
 
 ### Screenshot
 
-*(Insert screenshot.)*
+<img width="1265" height="896" alt="image" src="https://github.com/user-attachments/assets/f748ab1c-9dcc-4e0a-bea8-d7a995bf1048" />
+<img width="1761" height="977" alt="image" src="https://github.com/user-attachments/assets/61e71d36-ca29-4b32-b0ea-a891e1eb9f1f" />
+
 
 **Caption**
 
@@ -124,7 +129,8 @@ Removing duplicate values helps identify unique systems without repeatedly displ
 
 ### Screenshot
 
-*(Insert screenshot.)*
+<img width="1270" height="787" alt="image" src="https://github.com/user-attachments/assets/69ce69a9-347d-4023-b285-739dffee35cc" />
+
 
 **Caption**
 
@@ -144,7 +150,8 @@ Using multiple commands together creates a more efficient workflow and demonstra
 
 ### Screenshot
 
-*(Insert screenshot.)*
+<img width="1278" height="910" alt="image" src="https://github.com/user-attachments/assets/df922baa-f923-4acc-aa7b-e5f332199586" />
+
 
 **Caption**
 
