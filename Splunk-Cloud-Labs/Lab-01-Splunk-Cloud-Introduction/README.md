@@ -36,7 +36,9 @@ After authentication against the secure tenant URL, session initialization was g
 
 ### Screenshot
 
-*(Insert screenshot of the Splunk Cloud home page after logging in.)*
+<img width="1830" height="634" alt="image" src="https://github.com/user-attachments/assets/1a802a56-05f5-465d-b09e-4bb4edeba90a" />
+<img width="2878" height="1572" alt="image" src="https://github.com/user-attachments/assets/0531bf3e-d88b-4227-8dff-388e9cee61d8" />
+
 
 **Caption**
 
@@ -59,7 +61,12 @@ Understanding the dashboard layout provides the foundation for navigating Splunk
 
 ### Screenshot
 
-*(Insert screenshot of the Splunk Cloud dashboard.)*
+<img width="2850" height="1494" alt="image" src="https://github.com/user-attachments/assets/7893b8a7-fb50-4bdd-83f7-74c78542eea3" />
+<img width="2856" height="1462" alt="image" src="https://github.com/user-attachments/assets/e5dabcd2-8cc8-4844-bfb8-1882115a8227" />
+<img width="2866" height="1416" alt="image" src="https://github.com/user-attachments/assets/f6293c26-f3aa-425f-a6f4-ec9b36e5c980" />
+<img width="1392" height="1186" alt="image" src="https://github.com/user-attachments/assets/daa61fea-a28e-44d6-8d5d-18de5c6d3b4a" />
+<img width="1434" height="764" alt="image" src="https://github.com/user-attachments/assets/5a683c91-6224-490d-a841-5734f6368937" />
+
 
 **Caption**
 
@@ -75,7 +82,8 @@ This application serves as the primary workspace for searching indexed data, bui
 
 ### Screenshot
 
-*(Insert screenshot entering the Search & Reporting application.)*
+<img width="2850" height="1494" alt="image" src="https://github.com/user-attachments/assets/e883bd8f-80f4-4337-a913-fa1293c8dbb0" />
+
 
 **Caption**
 
@@ -97,7 +105,7 @@ These tools are used throughout the remaining Splunk labs.
 
 ### Screenshot
 
-*(Insert screenshot of the Search & Reporting interface.)*
+<img width="2864" height="1492" alt="image" src="https://github.com/user-attachments/assets/abfa6a2c-efac-48e7-afb3-1bc14ef9b820" />
 
 **Caption**
 
@@ -113,7 +121,8 @@ Observed how Splunk organizes machine data into searchable events that can later
 
 ### Screenshot
 
-*(Insert screenshot showing indexed events.)*
+<img width="2870" height="1558" alt="image" src="https://github.com/user-attachments/assets/90a8c33d-71ff-42c1-994a-85371610f285" />
+
 
 **Caption**
 
@@ -137,7 +146,10 @@ Understanding these fields is essential for building effective SPL searches and 
 
 ### Screenshot
 
-*(Insert screenshot highlighting the Fields sidebar.)*
+<img width="2374" height="1332" alt="image" src="https://github.com/user-attachments/assets/59574662-6346-42bd-b56b-a4bec47fcbf1" />
+<img width="2586" height="1238" alt="image" src="https://github.com/user-attachments/assets/7f618219-a781-4340-95f5-5807fb68816b" />
+<img width="2546" height="1298" alt="image" src="https://github.com/user-attachments/assets/08a0e1f1-f681-4ff4-8521-aa62407a03ef" />
+
 
 **Caption**
 
