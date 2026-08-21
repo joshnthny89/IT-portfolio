@@ -32,7 +32,8 @@ Logged into Splunk Cloud and opened the **Search & Reporting** application. This
 
 ### Screenshot
 
-*(Insert screenshot of the Search & Reporting application.)*
+<img width="2850" height="1494" alt="image" src="https://github.com/user-attachments/assets/d29d1bbc-2210-4b42-8606-05245efaaea2" />
+
 
 **Caption**
 
@@ -52,7 +53,8 @@ This search returns events from all available indexes and provides an initial vi
 
 ### Screenshot
 
-*(Insert screenshot showing the search query and returned events.)*
+<img width="1280" height="911" alt="image" src="https://github.com/user-attachments/assets/05a6b719-f816-472e-be87-ab4fc6e8607a" />
+
 
 **Caption**
 
@@ -68,7 +70,10 @@ Changing the time range is one of the quickest ways to reduce unnecessary result
 
 ### Screenshot
 
-*(Insert screenshot showing the Time Range Picker.)*
+<img width="1259" height="603" alt="image" src="https://github.com/user-attachments/assets/46baea00-cc0c-40c2-bc86-f318e412f037" />
+
+<img width="1275" height="908" alt="image" src="https://github.com/user-attachments/assets/6459c53c-60b9-4f20-98ea-c4de5b45bf28" />
+
 
 **Caption**
 
@@ -84,7 +89,8 @@ Rather than reviewing every available event, filtering allows analysts to quickl
 
 ### Screenshot
 
-*(Insert screenshot showing the refined search.)*
+<img width="1131" height="844" alt="image" src="https://github.com/user-attachments/assets/b1cb1c32-0c7d-4f7e-acd6-51b0d7c0f2d4" />
+
 
 **Caption**
 
@@ -100,7 +106,8 @@ Observed how each event contains valuable information such as timestamps, hosts,
 
 ### Screenshot
 
-*(Insert screenshot showing expanded event details.)*
+<img width="1273" height="896" alt="image" src="https://github.com/user-attachments/assets/0e21e435-9a60-418d-b7cd-33222acc9f1d" />
+
 
 **Caption**
 
@@ -115,8 +122,10 @@ Modified or cleared the search query to perform additional searches and observe 
 Practicing with simple searches helps build familiarity with SPL and demonstrates how small changes to a query can significantly improve the quality of search results.
 
 ### Screenshot
+<img width="1140" height="838" alt="image" src="https://github.com/user-attachments/assets/ca6b9783-a40b-45e7-b765-528b722c8f33" />
 
-*(Insert screenshot showing an updated search query.)*
+<img width="1140" height="830" alt="image" src="https://github.com/user-attachments/assets/33f5fbfe-8431-4619-8425-48830b9b98f7" />
+
 
 **Caption**
 
