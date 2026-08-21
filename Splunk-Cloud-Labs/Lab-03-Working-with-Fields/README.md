@@ -32,7 +32,8 @@ Logged into Splunk Cloud and navigated to the **Search & Reporting** application
 
 ### Screenshot
 
-*(Insert screenshot of the Search & Reporting application.)*
+<img width="2850" height="1494" alt="image" src="https://github.com/user-attachments/assets/bd96a8ba-a020-4ffe-90ab-39cc333c30b6" />
+
 
 **Caption**
 
@@ -52,7 +53,8 @@ Returning a collection of events allows Splunk to display the available fields t
 
 ### Screenshot
 
-*(Insert screenshot showing returned events.)*
+<img width="1275" height="908" alt="image" src="https://github.com/user-attachments/assets/7014f5db-b5e0-4a59-92e3-302f023fa629" />
+
 
 **Caption**
 
@@ -75,7 +77,8 @@ Splunk automatically identifies and organizes these fields, making it easier to 
 
 ### Screenshot
 
-*(Insert screenshot highlighting the Fields panel.)*
+<img width="1277" height="884" alt="image" src="https://github.com/user-attachments/assets/d46aa9e9-e738-42ef-8dd6-c517e9c9639d" />
+
 
 **Caption**
 
@@ -99,7 +102,8 @@ Filtering by field values significantly reduces the number of returned events, h
 
 ### Screenshot
 
-*(Insert screenshot showing the filtered search.)*
+<img width="1278" height="906" alt="image" src="https://github.com/user-attachments/assets/f4a3e1b8-c105-4d8f-963c-ff4e08229652" />
+
 
 **Caption**
 
@@ -115,7 +119,9 @@ Observed how Splunk organizes event data into searchable fields, making it easie
 
 ### Screenshot
 
-*(Insert screenshot showing an expanded event.)*
+<img width="1279" height="905" alt="image" src="https://github.com/user-attachments/assets/5024e544-013f-4ebc-993b-bc10d0352c6e" />
+<img width="1124" height="895" alt="image" src="https://github.com/user-attachments/assets/56d4297a-9873-4b67-84f0-042d5f10d9d0" />
+
 
 **Caption**
 
@@ -131,7 +137,9 @@ Comparing different fields demonstrates how analysts can quickly isolate events 
 
 ### Screenshot
 
-*(Insert screenshot showing multiple field selections.)*
+<img width="1287" height="913" alt="image" src="https://github.com/user-attachments/assets/3c7a259c-8192-4039-9c6c-02781edca178" />
+<img width="1274" height="918" alt="image" src="https://github.com/user-attachments/assets/aec34e52-ed8e-430e-be64-f2ca4285683e" />
+
 
 **Caption**
 
