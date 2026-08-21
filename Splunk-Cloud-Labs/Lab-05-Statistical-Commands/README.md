@@ -44,7 +44,8 @@ Beginning with a broad search establishes a dataset that can be summarized using
 
 ### Screenshot
 
-*(Insert screenshot showing the returned events.)*
+<img width="1280" height="911" alt="image" src="https://github.com/user-attachments/assets/dbd1d1c2-3d44-4f88-9cea-a5a0e5c8187e" />
+
 
 **Caption**
 
@@ -64,7 +65,8 @@ Summarizing events by host provides a quick overview of which systems are genera
 
 ### Screenshot
 
-*(Insert screenshot showing the search results.)*
+<img width="1284" height="708" alt="image" src="https://github.com/user-attachments/assets/013e54ee-b716-4bcd-8b99-510d38b89544" />
+
 
 **Caption**
 
@@ -84,7 +86,7 @@ This command quickly highlights the data sources contributing the highest number
 
 ### Screenshot
 
-*(Insert screenshot showing the results.)*
+<img width="1282" height="716" alt="image" src="https://github.com/user-attachments/assets/c196082f-5671-458c-bec7-71baf5ca8125" />
 
 **Caption**
 
@@ -104,7 +106,8 @@ Reviewing uncommon events can help identify systems or data sources that may war
 
 ### Screenshot
 
-*(Insert screenshot showing the results.)*
+<img width="1276" height="710" alt="image" src="https://github.com/user-attachments/assets/c29faca0-91b0-499b-a357-dd87fb927960" />
+
 
 **Caption**
 
@@ -124,23 +127,40 @@ Visualizing summarized data makes it easier to recognize trends and compare acti
 
 ### Screenshot
 
-*(Insert screenshot showing the chart.)*
+<img width="1287" height="778" alt="image" src="https://github.com/user-attachments/assets/27efa26a-26da-4ad7-8760-a1cabd606682" />
+
 
 **Caption**
 
 <sub><em>Created a simple chart to visualize event activity across multiple hosts.</em></sub>
 
+```spl
+index=* | chart count by source
+```
+### Screenshot
+
+<img width="1275" height="513" alt="image" src="https://github.com/user-attachments/assets/19bc49f5-5c9c-44bc-b964-c0ac1aa2ddd0" />
+
+**Caption**
+
+<sub><em>Created a simple chart to visualize event activity across multiple sources.</em></sub>
 ---
 
 ## Step 6 – Compare Statistical Results
 
 Compared the output of the `stats`, `top`, `rare`, and `chart` commands to understand how each presents data from a different perspective.
 
+- `stats` summarizes event counts and other calculated statistics.
+- `top` identifies the most frequently occurring field values.
+- `rare` highlights the least frequently occurring values.
+- `chart` presents summarized results in a visual format for easier comparison.
+
+
 Although each command analyzes the same dataset, they serve different purposes depending on whether the goal is counting events, identifying trends, highlighting uncommon activity, or creating visualizations.
 
 ### Screenshot
 
-*(Insert screenshot comparing multiple searches or outputs.)*
+<img width="1760" height="913" alt="image" src="https://github.com/user-attachments/assets/ea4b8914-aa9d-4b5d-bf12-5d82327c51e9" />
 
 **Caption**
 
