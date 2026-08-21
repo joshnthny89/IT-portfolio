@@ -48,7 +48,8 @@ This search served as the foundation for creating both a report and an alert.
 
 ### Screenshot
 
-*(Insert screenshot showing the completed search.)*
+<img width="1277" height="711" alt="image" src="https://github.com/user-attachments/assets/5d37da6a-0536-4321-9b55-ccbe6002aae4" />
+
 
 **Caption**
 
@@ -64,7 +65,9 @@ Reports allow commonly used searches to be saved and rerun without recreating th
 
 ### Screenshot
 
-*(Insert screenshot showing the Save As Report window.)*
+<img width="1136" height="323" alt="image" src="https://github.com/user-attachments/assets/29429624-a54a-4bcc-bd5d-2fedd24b6367" />
+<img width="557" height="368" alt="image" src="https://github.com/user-attachments/assets/45756518-92f2-4d8a-bef2-79c170903acf" />
+
 
 **Caption**
 
@@ -80,7 +83,8 @@ Scheduling reports enables analysts to receive updated search results without ma
 
 ### Screenshot
 
-*(Insert screenshot showing the scheduling options.)*
+<img width="797" height="672" alt="image" src="https://github.com/user-attachments/assets/a99a7dc9-14b6-4281-851b-39149e80b848" />
+
 
 **Caption**
 
@@ -96,7 +100,9 @@ Configured the alert to trigger when specified search conditions were met, allow
 
 ### Screenshot
 
-*(Insert screenshot showing the alert configuration.)*
+<img width="1130" height="265" alt="image" src="https://github.com/user-attachments/assets/ccb43335-14df-4af3-8f4a-7eea8588ae1e" />
+<img width="794" height="832" alt="image" src="https://github.com/user-attachments/assets/5249c23d-d8b8-46d6-ac9d-04ec85e58f34" />
+
 
 **Caption**
 
@@ -120,7 +126,8 @@ Automated alert actions help reduce response times by notifying analysts immedia
 
 ### Screenshot
 
-*(Insert screenshot showing available alert actions.)*
+<img width="795" height="773" alt="image" src="https://github.com/user-attachments/assets/050dbbb5-da11-4fe6-bea3-7e5033fda025" />
+
 
 **Caption**
 
@@ -136,7 +143,10 @@ Confirmed that the saved objects were available for future monitoring and could 
 
 ### Screenshot
 
-*(Insert screenshot showing the Reports and Alerts list.)*
+<img width="1115" height="433" alt="image" src="https://github.com/user-attachments/assets/473c7057-49d2-449e-9318-cee5ba108f60" />
+<img width="1132" height="633" alt="image" src="https://github.com/user-attachments/assets/5c5a0ddd-9de7-4a7d-8b93-2475169ee66e" />
+<img width="1137" height="252" alt="image" src="https://github.com/user-attachments/assets/825fd4ad-c029-4d60-ae7f-11dd34f784e2" />
+
 
 **Caption**
 
