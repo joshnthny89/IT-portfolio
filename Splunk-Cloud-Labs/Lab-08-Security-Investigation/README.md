@@ -189,6 +189,13 @@ Documenting observations is an important part of the incident response process a
 
 ## Findings: The reviewed activity was associated with the available Splunk dataset and did not, by itself, provide sufficient evidence of malicious activity. Additional investigation would be warranted if other indicators or anomalous behavior were identified.
 
+### Screenshot
+<img width="2648" height="1054" alt="image" src="https://github.com/user-attachments/assets/7772d6b6-a443-4aa3-a8fd-a87b2faeb3b1" />
+
+**Caption**
+
+<sub><em>Successful alert email was received.</em></sub>
+
 ---
 
 ## What I Learned
