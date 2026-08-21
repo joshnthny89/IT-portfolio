@@ -52,7 +52,8 @@ Starting with a broad search helps determine what data is available before narro
 
 ### Screenshot
 
-*(Insert screenshot showing the initial search.)*
+<img width="1143" height="890" alt="image" src="https://github.com/user-attachments/assets/65c6b088-2634-4815-8aa3-1f697c348526" />
+
 
 **Caption**
 
@@ -76,7 +77,9 @@ Filtering unnecessary data allows analysts to investigate more efficiently.
 
 ### Screenshot
 
-*(Insert screenshot showing the refined search.)*
+<img width="1280" height="911" alt="image" src="https://github.com/user-attachments/assets/60d2ed78-44da-4c93-bb03-7e7e8816b733" />
+<img width="1144" height="863" alt="image" src="https://github.com/user-attachments/assets/4f16e922-8401-4ba1-9076-613b65360bea" />
+
 
 **Caption**
 
@@ -100,7 +103,8 @@ Using extracted fields provides additional context and helps identify patterns t
 
 ### Screenshot
 
-*(Insert screenshot highlighting the Fields sidebar.)*
+<img width="1143" height="916" alt="image" src="https://github.com/user-attachments/assets/fa4c7605-836a-4c93-a6e6-04ff85760fe2" />
+
 
 **Caption**
 
@@ -115,14 +119,15 @@ Applied statistical commands to identify trends within the returned events.
 Example:
 
 ```spl
-index=* | stats count by host
+index=* author="Splunk" | stats count
 ```
 
 Summarizing the data helps identify systems generating the most activity and provides a clearer picture of the overall environment.
 
 ### Screenshot
 
-*(Insert screenshot showing the statistical results.)*
+<img width="1146" height="339" alt="image" src="https://github.com/user-attachments/assets/d20b7888-2bd2-4359-9ffa-ea6f9d3e991b" />
+
 
 **Caption**
 
@@ -138,7 +143,8 @@ Using dashboards provides a quick overview of activity and helps validate observ
 
 ### Screenshot
 
-*(Insert screenshot showing the dashboard.)*
+<img width="1281" height="723" alt="image" src="https://github.com/user-attachments/assets/ab0ee3fb-e687-4d01-b74f-b304ec60c6b3" />
+
 
 **Caption**
 
@@ -154,7 +160,8 @@ This demonstrates how automated monitoring supports analysts by drawing attentio
 
 ### Screenshot
 
-*(Insert screenshot showing the saved report or alert.)*
+<img width="832" height="218" alt="image" src="https://github.com/user-attachments/assets/73fa30d4-bbec-4578-b3b5-febcdbc0b3bb" />
+
 
 **Caption**
 
@@ -172,11 +179,15 @@ Documenting observations is an important part of the incident response process a
 
 ### Screenshot
 
-*(Insert screenshot showing the final search results or investigation summary.)*
+<img width="1141" height="321" alt="image" src="https://github.com/user-attachments/assets/67ab202c-5b2a-4025-8ad4-ecf0c414f582" />
+<img width="1140" height="646" alt="image" src="https://github.com/user-attachments/assets/6827100f-63c4-450c-add9-b36d28f84c6f" />
+
 
 **Caption**
 
 <sub><em>Documented the investigation findings after reviewing search results, field data, dashboards, and automated monitoring tools.</em></sub>
+
+## Findings: The reviewed activity was associated with the available Splunk dataset and did not, by itself, provide sufficient evidence of malicious activity. Additional investigation would be warranted if other indicators or anomalous behavior were identified.
 
 ---
 
